@@ -1,0 +1,53 @@
+# Deployment service
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
+  name: stars
+  labels:
+    app: stars
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    name: stars
+    targetPort: 80
+  selector:
+    app: stars
+  sessionAffinity: ClientIP
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stars
+  labels:
+    app: stars
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stars
+  template:
+    metadata:
+      labels:
+        app: stars
+    spec:
+      hostAliases:
+      - ip: "192.168.7.38"
+        hostnames:
+        - "localhost"
+      containers:
+      - name: stars
+        image: stars:1.0.0-a0
+        imagePullPolicy: Never
+        volumeMounts:
+        - name: secretsvolume
+          mountPath: "/etc/secrets"
+      volumes:
+      - name: secretsvolume
+        secret:
+          secretName: secrets
+
+          

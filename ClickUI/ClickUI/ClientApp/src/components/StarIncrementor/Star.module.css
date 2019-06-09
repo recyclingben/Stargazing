@@ -1,0 +1,27 @@
+﻿.Container {
+	flex: 1;
+}
+
+.StarContainer {
+	text-align: center;
+	display: flex;
+	height: calc(50vh + 50px);
+}
+	.StarContainer__Star {
+		flex: 1;
+	}
+		.StarContainer__Star__Button {
+			display: inline;
+			max-width: 90%;
+			max-height: 100%;
+	
+			filter: brightness(50%) sepia(1) hue-rotate(220deg) brightness(100%);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			cursor: pointer;
+			transition: filter 0.1s linear;
+		}
+			.StarContainer__Star__Button:active {
+				filter: brightness(50%) sepia(1) hue-rotate(220deg) brightness(105%);
+			}

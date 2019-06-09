@@ -1,0 +1,23 @@
+#NavigationBarOptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.NavigationBarOption {
+  margin: 0 30px 0 0;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+  .NavigationBarOption:hover {
+    color: #5aacfa;
+  }
+  @media not screen and (min-width: 500px) {
+    .NavigationBarOption {
+      padding-bottom: 20px;
+      margin: 0 15px;
+    }
+  }

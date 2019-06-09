@@ -1,0 +1,19 @@
+services:
+  stars:
+    build:
+      context: D:\Ben\Programming\C#\Stargazing\Stars
+      dockerfile: Stars/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44305'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: stars
+    ports:
+    - published: 57534
+      target: 80
+    - published: 44305
+      target: 443
+    volumes:
+    - C:\Users\Ben\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Ben\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

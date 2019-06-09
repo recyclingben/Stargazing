@@ -1,0 +1,36 @@
+﻿.Container {
+	flex: 1;
+}
+
+.ClickCounter {
+    text-align: center;
+    font-family: "PT Mono";
+		line-height: 1;
+		margin-top: 15px;
+}
+@media only screen and (min-width: 1000px) {
+	.ClickCounter {
+		text-align: left;
+	}
+}
+	.ClickCounter__Total {
+		letter-spacing: 1rem;
+		text-indent: 1rem;
+		font-size: 4rem;
+	}
+	@media only screen and (min-width: 1000px) {
+		.ClickCounter__Total {
+			font-size: 6rem;
+		}
+	}
+	.ClickCounter__Personal {
+		letter-spacing: 0.5rem;
+		text-indent: 0.5rem;
+		font-size: 1.5rem;
+		color: #888;
+	}
+	@media only screen and (min-width: 1000px) {
+		.ClickCounter__Personal {
+			padding-left: 20px;
+		}
+	}

@@ -1,0 +1,15 @@
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\bin\Debug\netcoreapp2.1\Stars.deps.json
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\bin\Debug\netcoreapp2.1\Stars.runtimeconfig.json
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\bin\Debug\netcoreapp2.1\Stars.runtimeconfig.dev.json
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\bin\Debug\netcoreapp2.1\Stars.dll
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.csproj.CoreCompileInputs.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.RazorAssemblyInfo.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.RazorAssemblyInfo.cs
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.AssemblyInfoInputs.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.AssemblyInfo.cs
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.RazorTargetAssemblyInfo.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\bin\Debug\netcoreapp2.1\Stars.pdb
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.csprojAssemblyReference.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.dll
+D:\Ben\Programming\C#\Stargazing\Stars\Stars\obj\Debug\netcoreapp2.1\Stars.pdb

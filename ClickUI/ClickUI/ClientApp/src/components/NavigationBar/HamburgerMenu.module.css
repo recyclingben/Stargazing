@@ -1,0 +1,23 @@
+.Container {
+  display: flex;
+  transition: color 0.1s ease-in;
+}
+  @media only screen and (min-width: 500px) {
+    .Container {
+      display: none;
+    }
+  }
+
+.HamburgerMenu {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  margin-right: 15px;
+}
+  .HamburgerMenu:active,
+  .HamburgerMenu:focus {
+    outline: none;
+  }
+  .HamburgerMenu:hover {
+    color: #fa5a5a;
+  }

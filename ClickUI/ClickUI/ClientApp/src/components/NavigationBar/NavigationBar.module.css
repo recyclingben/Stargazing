@@ -1,0 +1,75 @@
+.NavigationBar {
+  display: flex;
+  flex-basis: 0;
+  justify-content: space-between;
+  font-family: "Major Mono Display";
+  font-size: 2rem;
+  height: 80px;
+  border-bottom: 1px solid #eee;
+  font-weight: 900;
+  color: #aaa;
+  transition: color 0.2s ease-in;
+  user-select: none;
+  margin-bottom: 3px;
+  position: relative;
+  z-index: 4;
+}
+  .NavigationBar * {
+    transition: inherit;
+  }
+  @media not screen and (min-width: 500px) {
+    .NavigationBar {
+      height: 70px;
+    }
+  }
+  /* Empty element to be used to center title flex item. */
+  .NavigationBar__Balance {
+    flex: 1 1 0;
+  }
+	@media not screen and (min-width: 1000px) {
+		.NavigationBar__Balance {
+			display: none;
+		}
+	}
+  .NavigationBar__Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+    .NavigationBar__Title:hover {
+      color: #fa5a62;
+    }
+    @media not screen and (min-width: 500px) {
+      .NavigationBar__Title {
+        margin: 0 15px;
+        letter-spacing: inherit;
+      }
+    }
+  .NavigationBar__Options {
+    flex: 1 1 0;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  @media not screen and (min-width: 500px) {
+    .NavigationBar__Options {
+      display: block;
+      position: absolute;
+      top: 100%;
+      background-color: white;
+      width: 100%;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.5s ease;
+      border-bottom: 0.5px solid #eee;
+      z-index: 3;
+    }
+      .NavigationBar__Options.Open {
+        max-height: 50vh;
+      }
+  }

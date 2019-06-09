@@ -1,0 +1,9 @@
+﻿@media only screen and (min-width: 1000px) {
+	.StarPanel {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: center;
+		height: 80vh;
+	}
+}

@@ -1,0 +1,14 @@
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\bin\Debug\netcoreapp2.2\APIGateway.deps.json
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\bin\Debug\netcoreapp2.2\APIGateway.runtimeconfig.json
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\bin\Debug\netcoreapp2.2\APIGateway.runtimeconfig.dev.json
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\bin\Debug\netcoreapp2.2\APIGateway.dll
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.csprojAssemblyReference.cache
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.csproj.CoreCompileInputs.cache
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.RazorAssemblyInfo.cache
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.RazorAssemblyInfo.cs
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.AssemblyInfoInputs.cache
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.AssemblyInfo.cs
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.RazorTargetAssemblyInfo.cache
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\bin\Debug\netcoreapp2.2\APIGateway.pdb
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.dll
+D:\Ben\Programming\C#\Stargazing\APIGateway\APIGateway\obj\Debug\netcoreapp2.2\APIGateway.pdb

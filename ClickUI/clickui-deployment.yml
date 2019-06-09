@@ -1,0 +1,39 @@
+# Deployment service
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
+  name: clickui
+  labels:
+    app: clickui
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    name: clickui
+    targetPort: 80
+  selector:
+    app: clickui
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clickui
+  labels:
+    app: clickui
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: clickui
+  template:
+    metadata:
+      labels:
+        app: clickui
+    spec:
+      containers:
+      - name: clickui
+        image: clickui:1.0.0-a0
+        imagePullPolicy: Never

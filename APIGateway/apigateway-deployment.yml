@@ -1,0 +1,51 @@
+# Deployment service
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
+  name: apigateway
+  labels:
+    app: apigateway
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    name: apigateway
+    targetPort: 80
+  selector:
+    app: apigateway
+  sessionAffinity: ClientIP
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apigateway
+  labels:
+    app: apigateway
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: apigateway
+  template:
+    metadata:
+      labels:
+        app: apigateway
+    spec:
+      hostAliases:
+      - ip: "192.168.7.38"
+        hostnames:
+        - "localhost"
+      containers:
+      - name: apigateway
+        image: apigateway:1.0.0-a0
+        imagePullPolicy: Never
+        volumeMounts:
+        - name: secretsvolume
+          mountPath: "/etc/secrets"
+      volumes:
+      - name: secretsvolume
+        secret:
+          secretName: secrets

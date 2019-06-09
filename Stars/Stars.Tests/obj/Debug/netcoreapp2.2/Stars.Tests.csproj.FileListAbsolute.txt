@@ -1,0 +1,17 @@
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.Tests.deps.json
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.Tests.runtimeconfig.json
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.Tests.runtimeconfig.dev.json
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.Tests.dll
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.Tests.pdb
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.dll
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\Stars.pdb
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.csprojAssemblyReference.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.csproj.CoreCompileInputs.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.AssemblyInfoInputs.cache
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.AssemblyInfo.cs
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.csproj.CopyComplete
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.dll
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\obj\Debug\netcoreapp2.2\Stars.Tests.pdb
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\Ben\Programming\C#\Stargazing\Stars\Stars.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
